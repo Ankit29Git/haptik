@@ -1,15 +1,11 @@
-import Intro from './content/intro';
-import Info from './content/info';
-import Footer from './content/footer';
+import FriendsList from './content/friendsList';
 import './content/style.scss';
 
 class Welcome extends React.Component {
     render() {
         return (
             <div>
-                <Intro />
-                <Info />
-                <Footer />
+                <FriendsList />
             </div>
 
         )
